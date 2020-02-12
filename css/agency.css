@@ -14,7 +14,7 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #5c99d3;
 }
 
 a:hover {
@@ -22,7 +22,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #5c99d3 !important;
 }
 
 h1,
@@ -46,7 +46,7 @@ h6 {
 }
 
 .page-section h3.section-subheading {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   font-style: italic;
   margin-bottom: 75px;
@@ -61,12 +61,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #5c99d3;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #5c99d3;
   text-shadow: none;
 }
 
@@ -93,13 +93,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #5c99d3;
+  border-color: #5c99d3;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #5c99d3 !important;
+  border-color: #5c99d3 !important;
   color: white;
 }
 
@@ -118,17 +118,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #5c99d3;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #5c99d3;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #5c99d3;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -141,7 +141,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #5c99d3;
 }
 
 @media (min-width: 992px) {
@@ -162,7 +162,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #212529; 
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -173,16 +173,22 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
-  background-repeat: no-repeat;
+  background: rgb(2,0,36);
+  background: -webkit-linear-gradient(left, #000046 0%, rgba(9,9,121,1) 35%, #1CB5E0 100%);
+  background: -o-linear-gradient(left, #000046 0%, rgba(9,9,121,1) 35%, #1CB5E0 100%);
+  background: linear-gradient(to right, #000046 0%, rgba(9,9,121,1) 35%, #1CB5E0 100%);   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+header.masthead .intro-text img {
+  height: 150px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -203,8 +209,11 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  header.masthead .intro-text img {
+    height: 400px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
@@ -246,7 +255,7 @@ header.masthead .intro-text .intro-heading {
   height: 100%;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(100, 160, 200, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -442,7 +451,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #5c99d3;
 }
 
 .timeline > li .timeline-image h4 {
@@ -637,12 +646,21 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #5c99d3;
 }
 
 .badge-pill {
-  color: #fed136;
+  color: #5c99d3;
   background-color: #212529;
-  font-size: 20px;
+  font-size: 24px;
+  padding-top: 8px;
   margin-top: 6px;
+}
+
+.red--text {
+  color: red;
+}
+
+iframe {
+  width: 100% !important;
 }
