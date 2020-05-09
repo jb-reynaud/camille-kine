@@ -664,3 +664,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 iframe {
   width: 100% !important;
 }
+
+.covid {
+  background-image: radial-gradient( circle farthest-corner at 7.2% 19%,  rgba(120,0,0,1) 0%, rgba(239,75,75,1) 100.2% );  
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+}
